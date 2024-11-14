@@ -31,23 +31,23 @@ my-restaurant/
 |--package.json
 |__README.md
 
-
+```
 
 ## Installation and setup
 
 #### Clone the Repository
-bash
+```bash
 git clone https://github.com/mahmudul607/my-restaurant.git
 cd my-restaurant
-
+```
 
 #### Installing depenences
-bash
+```bash
 npm install
-
+```
 
 #### Start The Deployment Server
-bash
+```bash
 npm run dev
 
 ```
