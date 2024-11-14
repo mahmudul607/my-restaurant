@@ -17,8 +17,9 @@ BootStrap & React Bootstrap: For responsive design and components.
 TailwindCSS & DaisyUI: For utility-first styling.
 Swiper: For creating touch sliders and carousels.
 
-### Project Structure
+### Project Structure:
 
+graphql
 my-restaurant/
 |--public/
 |--src/
@@ -39,11 +40,11 @@ git clone https://github.com/mahmudul607/my-restaurant.git
 cd my-restaurant
 #### Installing depenences
 
-```bash
+bash
 npm install
 
 #### Start The Deployment Server
-```bash
+bash
 npm run dev
 
 
