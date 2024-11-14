@@ -235,11 +235,13 @@ border-radius: unset !important;
   box-shadow: 5px 5px 10px rgba(238, 11, 11, 0.2);
   border-radius: 50%;
   position: absolute;
-  padding: 20px;
   z-index: -1;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   font-weight: 700;
   right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 
@@ -371,65 +373,16 @@ border-radius: unset !important;
   top: 0;
   right: 0;
   background: rgba(8, 1, 1, 0.7);
-  z-index: -1;
+  z-index: 0;
+}
+.footer-area .quick-contact i{
+  cursor: pointer;
+
+}
+.footer-area .quick-contact i:hover{
+  color: #FEBF00;
+
 }
 
 
-/* Responsive style ------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 767.99px) { 
-  .swiper-button-prev::after, .swiper-button-next::after {
-
-    width: 30px !important;
-    height: 30px !important;
-    padding: 8px;
-   
-   
-  }
-
-  .swiper-button-prev,
-  .swiper-button-next {
-    bottom: 0 !important; 
-    z-index: 10 !important;
-    position: relative !important;
-    color: #000;
-    top: 1.4rem !important;
-    height: 0 !important;
-    margin-top: unset !important;
-  }
-  .mySwiper {
-    padding-bottom: 3rem !important; 
-    padding-top:0 !important ;
-  }
-  .swiper-button-prev {
-   left: 30% !important;
-   
-  }
-  .swiper-container{
-    top: 0 !important;
-  }
-  .swiper-button-next {
-    left: 60% !important;
-    
-    
-  }
-
-
-
-  /* our service */
-
-  .our-service .details p{
-    font-size: 12px;
-    
-  }
-  .our-service .details, .our-service .details h2{
-    font-weight: 600;
-    font-size: 18px;
-  }
-
-  .our-service .tab-content .details-area h2{
-    font-size: 18px;
-    font-weight: 600;
-  }
-
- }

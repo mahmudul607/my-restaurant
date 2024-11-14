@@ -6,6 +6,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useEffect, useState } from 'react';
+import foodOne from "../../assets/img/184a30047efa14c4ce6e60786c18fe6e.jfif"
+import foodTwo from "../../assets/img/f92943a143d37dab4fdb66f1542f7970.png"
+import foodThree from "../../assets/img/b820f37564100d79a40fa0793ded35d2.jfif"
+import foodFour from "../../assets/img/c96692a063207f1692d13a65e436d78b.jfif"
 
 const CustomSwiper = () => {
 
@@ -57,7 +61,7 @@ const CustomSwiper = () => {
                     <SwiperSlide> <div className="item">
                         <div className="product text-center space-y-4">
                             <div className="h-[180px] relative">
-                                <img src="/src/assets/img/184a30047efa14c4ce6e60786c18fe6e.jfif" alt="" />
+                                <img src={foodOne} alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
                             <div className="detail-of-product h-[120px]">
@@ -70,7 +74,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="h-[180px] relative">
-                                <img className="w-full h-full" src="/src/assets/img/f92943a143d37dab4fdb66f1542f7970.png"
+                                <img className="w-full h-full" src={foodTwo}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
@@ -83,7 +87,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="relative h-[180px]">
-                                <img className="w-full h-full" src="/src/assets/img/b820f37564100d79a40fa0793ded35d2.jfif"
+                                <img className="w-full h-full" src={foodThree}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
@@ -96,7 +100,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="relative h-[180px]">
-                                <img className="w-full h-full" src="/src/assets/img/c96692a063207f1692d13a65e436d78b.jfif"
+                                <img className="w-full h-full" src={foodFour}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
@@ -109,7 +113,7 @@ const CustomSwiper = () => {
                     <SwiperSlide> <div className="item">
                         <div className="product text-center space-y-4">
                             <div className="h-[180px] relative">
-                                <img src="/src/assets/img/184a30047efa14c4ce6e60786c18fe6e.jfif" alt="" />
+                                <img src={foodOne} alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
                             <div className="detail-of-product h-[120px]">
@@ -122,7 +126,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="h-[180px] relative">
-                                <img className="w-full h-full" src="/src/assets/img/f92943a143d37dab4fdb66f1542f7970.png"
+                                <img className="w-full h-full" src={foodTwo}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
@@ -135,7 +139,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="relative h-[180px]">
-                                <img className="w-full h-full" src="/src/assets/img/b820f37564100d79a40fa0793ded35d2.jfif"
+                                <img className="w-full h-full" src={foodThree}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>
@@ -148,7 +152,7 @@ const CustomSwiper = () => {
                     <SwiperSlide><div className="item">
                         <div className="product text-center space-y-4">
                             <div className="relative h-[180px]">
-                                <img className="w-full h-full" src="/src/assets/img/c96692a063207f1692d13a65e436d78b.jfif"
+                                <img className="w-full h-full" src={foodFour}
                                     alt="" />
                                 <div className="w-24 mx-auto border-b-4 border-red-900  bottom-0 absolute left-[30%]"></div>
                             </div>

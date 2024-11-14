@@ -9,3 +9,13 @@
 .aboutUs .flex-item .members{
     box-shadow: 10px 10px 20px 20px rgba(229, 233, 3, 0.5) inset;
 }
+
+.accordion .accordion-collapse{
+    border-left: 4px solid #FEBF00 !important;
+    border-right: 4px solid #FEBF00 !important;
+    
+}
+.accordion .accordion-item{
+    color: white !important;
+    background-color: rgba(254, 191, 0, 0.2) !important;
+}

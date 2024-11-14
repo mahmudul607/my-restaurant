@@ -5,7 +5,7 @@ import { SwiperSlide, Swiper } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+import customerImage from "../../assets/img/mahmudul.jpg";
 
 const ReviewSwiper = () => {
 
@@ -39,7 +39,7 @@ const ReviewSwiper = () => {
                                     <div className="lg:w-[50%] relative md:p-4 min-[200px]:w-full min-[200px]:p-2">
                                         <div className="pt-4 h-full flex flex-col justify-between">
 
-                                            <div className="pb-12 min-[200px]:text-sm p-4 text-left">
+                                            <div className="pb-12 min-[200px]:text-sm p-4 text-left md:text-xl">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
                                                     i get change to travel here.</p>
                                                 <p><small>Quality and service is well.</small></p>
@@ -56,7 +56,7 @@ const ReviewSwiper = () => {
                                                     <div className="avatar">
                                                         <div className="w-full rounded-full">
                                                         <img 
-                                                            src="/src/assets/img/mahmudul.jpg" alt="" />
+                                                            src={customerImage} alt="" />
                                                         </div>
                                                         </div>
                                                         
@@ -86,7 +86,7 @@ const ReviewSwiper = () => {
                                     <div className="lg:w-[50%] relative md:p-4 min-[200px]:w-full min-[200px]:p-2">
                                         <div className="pt-4 h-full flex flex-col justify-between">
 
-                                            <div className="pb-12 min-[200px]:text-sm p-4">
+                                            <div className="pb-12 min-[200px]:text-sm p-4 text-left md:text-xl">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
                                                     i get change to travel here.</p>
                                                 <p><small>Quality and service is well.</small></p>
@@ -103,7 +103,7 @@ const ReviewSwiper = () => {
                                                     <div className="avatar">
                                                         <div className="w-full rounded-full">
                                                         <img 
-                                                            src="/src/assets/img/mahmudul.jpg" alt="" />
+                                                            src={customerImage} alt="" />
                                                         </div>
                                                         </div>
                                                         
@@ -132,7 +132,7 @@ const ReviewSwiper = () => {
                                     <div className="lg:w-[50%] relative md:p-4 min-[200px]:w-full min-[200px]:p-2">
                                         <div className="pt-4 h-full flex flex-col justify-between">
 
-                                            <div className="pb-12 min-[200px]:text-sm p-4">
+                                            <div className="pb-12 min-[200px]:text-sm md:text-xl p-4 text-left">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
                                                     i get change to travel here.</p>
                                                 <p><small>Quality and service is well.</small></p>
@@ -149,7 +149,7 @@ const ReviewSwiper = () => {
                                                     <div className="avatar">
                                                         <div className="w-full rounded-full">
                                                         <img 
-                                                            src="/src/assets/img/mahmudul.jpg" alt="" />
+                                                            src={customerImage} alt="" />
                                                         </div>
                                                         </div>
                                                         

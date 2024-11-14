@@ -1,6 +1,7 @@
 import { Accordion } from "react-bootstrap";
 import "./About.css"
 import Footer from "../../components/Footer/Footer";
+import staffImage from "../../assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg"
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
             <div className="min-[200px]:flex-col flex md:flex-row   md:pt-24 min-[200px]:pt-16 ">
                 <div className="flex flex-item md:w-1/2 md:h-[500px]    items-center justify-between  relative">
                 <div className="staff-photo lg:h-[400px] w-full px-8">
-                    <img className="w-full h-full rounded" src="/src/assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg" alt="" />
+                    <img className="w-full h-full rounded" src={staffImage} alt="" />
                 </div>
                 </div>
                 <div className="flex-item font-Roboto sm:p-8 min-[200px]:p-2 md:w-1/2">
@@ -17,10 +18,10 @@ const About = () => {
                     <h1 className='text-white'>Make a better experience with us</h1>
                     <p className='text-white'>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks</p>
                     <div>
-                        <Accordion defaultActiveKey="0">
-                            <Accordion.Item eventKey="0">
+                        <Accordion defaultActiveKey="0" className="bg-transparent">
+                            <Accordion.Item eventKey="0" className="bg-transparent">
                                 <Accordion.Header> Food Qualities</Accordion.Header>
-                                <Accordion.Body>
+                                <Accordion.Body  className="bg-transparent">
                                 <li><strong>Freshness Checks:</strong> Perform regular checks on the freshness of ingredients, such as vegetables, meats, and seafood. Use a “first-in, first-out” (FIFO) inventory system to ensure older ingredients are used before newer ones.</li>
                                 <li><strong>Organic and Local Sourcing:</strong> Where possible, prioritize organic and locally sourced ingredients to ensure freshness, minimize transport time, and support sustainability.</li>
                                 

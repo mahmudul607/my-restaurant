@@ -2,9 +2,9 @@
 
 const Footer = () => {
     return (
-        <div className="footer-area  ">
+        <div className="footer-area relative ">
             <div className="bg-img pb-12">
-                <div className="main-area text-center space-y-12 lg:pt-48 md:pt-32 min-[200px]:pt-4 text-white">
+                <div className="main-area text-center space-y-12 lg:pt-48 md:pt-32 min-[200px]:pt-4 text-white relative z-10">
                     <div className="title">
                         <h1 className="lg:text-4xl md:text-2xl uppercase font-bold">We ready to have you the best dining
                             experiences</h1>
@@ -54,7 +54,7 @@ const Footer = () => {
 
                     </div>
                     <div className="copy-write-area text-center">
-                        <div className="quick-contact flex gap-4 justify-center">
+                        <div className="quick-contact flex gap-4 justify-center pb-4">
                             <i className="bi bi-facebook"></i>
                             <i className="bi bi-twitter"></i>
                             <i className="bi bi-linkedin"></i>

@@ -1,4 +1,4 @@
-
+import serviceImage from "../../assets/img/59d1a08b55f1f4e0621185f67f433fba.jfif";
 
 const Services = () => {
     return (
@@ -12,7 +12,7 @@ const Services = () => {
 
                 <div className="lg:col-span-3 min-[200px]:col-span-6">
                     <div className=" relative">
-                        <img src="/src/assets/img/59d1a08b55f1f4e0621185f67f433fba.jfif" alt="" />
+                        <img src={serviceImage} alt="" />
                         <div className="absolute lg:top-6 min-[200px]:top-3 left-4 bg-white rounded-2 flex ">
                             <div className="icon relative sm:p-4 min-[200px]:px-1 w-full flex">
                                 <svg width="95" height="95" viewBox="0 0 95 95" fill="none"
@@ -84,7 +84,7 @@ const Services = () => {
                                 <div className="flex">
                                 <button className="custombutton rounded">
                                     <span className="button_curve"></span>
-                                    <button className="btn rounded align-content-center">About More</button>
+                                    <button className="btn rounded align-content-center "><span className="text-sm">About More</span></button>
                                     
                                 </button>
                                    

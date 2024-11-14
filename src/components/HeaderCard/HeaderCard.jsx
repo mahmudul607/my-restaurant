@@ -1,12 +1,12 @@
-
+import image from '../../assets/img/134a1d5ba19b25b4daf3a6c032ddbd7a.jfif';
 
 const HeaderCard = () => {
     return (
-        <div className="header-section min-h-screen -top-16 relative">
+        <div className="header-section min-h-screen  -top-16 relative">
 
 
         <div
-            className="header-offer-section min-[200px]:px-4 lg:px-24   justify-center text-white  relative z-40 md:top-32 lg:top-32 min-[200px]:top-16 lg:max-w-screen-xl lg:mx-auto">
+            className=" header-offer-section min-[200px]:px-4 lg:px-24   justify-center text-white  relative z-40 md:top-32 lg:top-32 min-[200px]:top-16 lg:max-w-screen-xl lg:mx-auto">
             <div className="md:flex  offer-card">
                 <div className="item md:w-[50%]  ">
                     <div className="details lg:pl-16 md:pl-2 flex flex-col">
@@ -25,7 +25,7 @@ const HeaderCard = () => {
                 <div className="item  md:w-[50%] relative my-4 ">
                     <div className="min-[200px]:p-0 offer-img-item relative -z-50">
                         <img className="w-full h-full md:p-0 min-[200px]:p-0"
-                            src="/src/assets/img/134a1d5ba19b25b4daf3a6c032ddbd7a.jfif" alt=""/>
+                            src={image} alt=""/>
                         <span
                             className="star-svg absolute max-sm:-z-10 md:-top-8 min-[200px]:-top-4  lg:-right-6 min-[200px]:-right-2 md:-right-2">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"

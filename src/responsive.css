@@ -1,0 +1,63 @@
+/* Responsive style ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 767.99px) { 
+    .swiper-button-prev::after, .swiper-button-next::after {
+  
+      width: 30px !important;
+      height: 30px !important;
+      padding: 10px;
+      font-size: 0.8rem !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+     
+    }
+   
+  
+    .swiper-button-prev,
+    .swiper-button-next {
+      bottom: 0 !important; 
+      z-index: 10 !important;
+      position: relative !important;
+      color: #000;
+      top: 1.4rem !important;
+      height: 0 !important;
+      margin-top: unset !important;
+    }
+    .mySwiper {
+      padding-bottom: 3rem !important; 
+      padding-top:0 !important ;
+    }
+    .swiper-button-prev {
+     left: 30% !important;
+     
+    }
+    .swiper-container{
+      top: 0 !important;
+    }
+    .swiper-button-next {
+      left: 60% !important;
+      
+      
+    }
+  
+  
+  
+    /* our service */
+  
+    .our-service .details p{
+      font-size: 12px;
+      
+    }
+    .our-service .details, .our-service .details h2{
+      font-weight: 600;
+      font-size: 18px;
+    }
+  
+    .our-service .tab-content .details-area h2{
+      font-size: 18px;
+      font-weight: 600;
+    }
+  
+   }
