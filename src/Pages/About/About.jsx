@@ -1,49 +1,43 @@
 import { Accordion } from "react-bootstrap";
 import "./About.css"
+import Footer from "../../components/Footer/Footer";
 
 const About = () => {
     return (
+        <div>
         <div className="aboutUs pb-8 max-sm:px-4 max-sm:text-xs -top-16 relative bg-[#000324]">
-            <div className="lg:flex  pt-24">
-                <div className="flex flex-item lg:w-1/2 lg:h-[500px]  md:h-[400px] h-[300px] items-center   relative">
-                    <div className="members mx-auto w-[150px]  md:w-[300px] md:h-[300px] h-[150px] rounded-full">
-
-                    </div>
-                    <div className="indicator absolute top-[75%] left-[30%]">
-                        <span className="indicator-item h-20 w-20 indicator-start badge badge-secondary text-4xl"><i className="bi bi-telephone" /></span>
-                        <div className="grid sm:w-48 sm:h-20 w-36 h-12 rounded-tr-full rounded-bl-full text-black bg-green-600 place-items-center content">
-                            <h2 className='pl-6 pt-4'>01797692607</h2>
-                        </div>
-                    </div>
+            <div className="min-[200px]:flex-col flex md:flex-row   md:pt-24 min-[200px]:pt-16 ">
+                <div className="flex flex-item md:w-1/2 md:h-[500px]    items-center justify-between  relative">
+                <div className="staff-photo lg:h-[400px] w-full px-8">
+                    <img className="w-full h-full rounded" src="/src/assets/img/efffc28c62aa90f41b3f32f793ab5dcc.jpg" alt="" />
                 </div>
-                <div className="flex-item font-Roboto sm:p-8 p-2">
-                    <h1 className='text-4xl text-[#ff52d9]'>About Us</h1>
-                    <h1 className='text-white'>Create Life long Learning</h1>
+                </div>
+                <div className="flex-item font-Roboto sm:p-8 min-[200px]:p-2 md:w-1/2">
+                    <h1 className='text-4xl text-[#FEBF00]'>About Our Restaurant</h1>
+                    <h1 className='text-white'>Make a better experience with us</h1>
                     <p className='text-white'>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks</p>
                     <div>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>Accordion Item #1</Accordion.Header>
+                                <Accordion.Header> Food Qualities</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                <li><strong>Freshness Checks:</strong> Perform regular checks on the freshness of ingredients, such as vegetables, meats, and seafood. Use a “first-in, first-out” (FIFO) inventory system to ensure older ingredients are used before newer ones.</li>
+                                <li><strong>Organic and Local Sourcing:</strong> Where possible, prioritize organic and locally sourced ingredients to ensure freshness, minimize transport time, and support sustainability.</li>
+                                
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
-                                <Accordion.Header>Accordion Item #2</Accordion.Header>
+                                <Accordion.Header>Behavior of Staff</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                <li>Good Communication with Clients or Customers</li>
+                                <li>Full Fill The Customer Requirement As possible</li>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                                <Accordion.Header>Security Groups</Accordion.Header>
+                                <Accordion.Body>
+                                <li>We have a security group they give security for any of our client and customer in our area.</li>
+                                <li>The security group detects the theft and punishes it.</li>
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
@@ -55,6 +49,14 @@ const About = () => {
 
 
 
+        </div>
+
+       <div className="relative">
+       <div className="-top-16 absolute w-full">
+        <Footer></Footer>
+        </div>
+       
+        </div>
         </div>
     );
 };

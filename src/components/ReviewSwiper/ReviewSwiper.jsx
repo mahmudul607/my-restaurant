@@ -17,13 +17,13 @@ const ReviewSwiper = () => {
     
         
         slidesPerView={1}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
        
         navigation={true}
-        modules={[ Navigation]}
+        modules={[ Autoplay, Navigation]}
         className="mySwiper"
       >
                 
@@ -39,7 +39,7 @@ const ReviewSwiper = () => {
                                     <div className="lg:w-[50%] relative md:p-4 min-[200px]:w-full min-[200px]:p-2">
                                         <div className="pt-4 h-full flex flex-col justify-between">
 
-                                            <div className="pb-12 min-[200px]:text-sm p-4">
+                                            <div className="pb-12 min-[200px]:text-sm p-4 text-left">
                                                 <p>This restaurant food very testy and sweet to test. i visit here when
                                                     i get change to travel here.</p>
                                                 <p><small>Quality and service is well.</small></p>

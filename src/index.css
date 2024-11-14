@@ -96,7 +96,7 @@ a{
 
 /* button curve style */
 
-.customButton {
+.custombutton {
   background-color: #febf00;
   color: white;
   position: relative;
@@ -110,7 +110,7 @@ a{
   
 }
 
-.customButton .button_curve, .btn-outline .button_curve{
+.custombutton .button_curve, .btn-outline .button_curve{
   position: absolute;
   right: -15px;
   top: 0;
@@ -128,7 +128,7 @@ a{
   -o-transition: all 0.5s ease;
 }
 
-.customButton:hover .button_curve, .btn-outline:hover .button_curve {
+.custombutton:hover .button_curve, .btn-outline:hover .button_curve {
   right: 0;
   width: 100%;
   -webkit-transform: skewX(0deg);
@@ -311,7 +311,7 @@ border-radius: unset !important;
 .customers-say .background_image_right{
   position: absolute;
   overflow: hidden;
-  right: -4%;
+  right: -5%;
   width: 300px;
   height: 200px;
   bottom: 10%;
@@ -375,7 +375,7 @@ border-radius: unset !important;
 }
 
 
-/* Responsive style */
+/* Responsive style ------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 767.99px) { 
   .swiper-button-prev::after, .swiper-button-next::after {

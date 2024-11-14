@@ -1,29 +1,34 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Link, NavLink } from 'react-router-dom';
-import Home from '../../Pages/Home/Home';
+import {  NavLink } from 'react-router-dom';
+
 
 const MainNavbar = () => {
   return (
     <>
       {[ 'xl'].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-transparent   z-50 ">
-          <Container className='lg:px-24 min-[200px]:px-6  '>
-            <Navbar.Brand href="#" ><span className='text-[#febf00] font-bold lg:text-3xl md:text-2xl min-[200px]:text-md'>Restaurant</span> </Navbar.Brand>
+          <Container className='lg:px-24 min-[200px]:px-4  '>
+            <Navbar.Brand href="#" >
+            <span className="flex items-center gap-2"><span
+                            className="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
+                                className="material-icons  rounded-full bordered  border-2 border-[#c52b1f]">restaurant</i></span><span className='text-[#febf00] font-bold lg:text-3xl md:text-2xl min-[200px]:text-md'>Restaurant</span> </span>
+              
+               </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closeButton>
+              <Offcanvas.Header closebutton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className='text-[#febf00]'>
-                <span className='text-[#febf00] font-bold lg:text-3xl md:text-2xl min-[200px]:text-md'>Restaurant</span>
+                <span className="flex items-center gap-2"><span
+                            className="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
+                                className="material-icons  rounded-full bordered  border-2 border-[#c52b1f]">restaurant</i></span><span className='text-[#febf00] font-bold lg:text-3xl md:text-2xl min-[200px]:text-md'>Restaurant</span> </span>
+                {/* <span className='text-[#febf00] font-bold lg:text-3xl md:text-2xl min-[200px]:text-md'>Restaurant</span> */}
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body >
@@ -37,7 +42,7 @@ const MainNavbar = () => {
                  
                   
                 </Nav>
-                <button className="customButton rounded">
+                <button className="custombutton rounded">
                             <span className="button_curve"></span>
                             <span className="btn rounded align-content-center">Book Table</span></button>
                 

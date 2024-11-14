@@ -4,8 +4,7 @@ const BookTable = () => {
     return (
         <div className="book-table-section h-screen min-[200px]:mb-24 sm:mb-8 ">
             <div className="bg-img ">
-                <div
-                    className="book-table-content lg:pt-24 sm:pt-16 min-[200px]:pt-4 text-white  lg:max-w-[545px] min-[200px]:max-w-full lg:ml-48 md:ml-32 sm:mx-16 min-[200px]:mx-8 lg:mr-auto md:mr-8 ">
+                <div className="book-table-content lg:pt-24 sm:pt-16 min-[200px]:pt-4 text-white  lg:max-w-[545px] min-[200px]:max-w-full lg:ml-48 md:ml-32 sm:mx-16 min-[200px]:mx-8 lg:mr-auto md:mr-8 ">
                     <div>
                         <div className="booking-tilte sm:space-y-6 min-[200px]:space-y-2 min-[200px]:text-sm">
                             <li className="list-style">Buy Now</li>
@@ -32,9 +31,9 @@ const BookTable = () => {
                                 placeholder="Message"></textarea>
 
                             
-                            <button className="  customButton  w-32">
+                            <button className="  custombutton  w-32">
                             <span className="button_curve "></span>
-                            <input className="btn " type="submit" value="Book Now" />
+                            <input className="btn " type="submit" defaultValue="Book Now" />
                         </button>
                         </form>
                     </div>

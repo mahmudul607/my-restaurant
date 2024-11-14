@@ -16,7 +16,7 @@ const HeaderCard = () => {
                             Saudi cuisine</h1>
                         <p className="lg:mt-44 md:mt-48">Among the best Saudi chefs in the world, serving you something
                             beyond flavor </p>
-                        <button className="  customButton mt-4 w-32">
+                        <button className="  custombutton mt-4 w-32">
                             <span className="button_curve "></span>
                             <div className="btn">Explore Menu</div>
                         </button>

@@ -82,7 +82,7 @@ const Services = () => {
                                     inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
                                     dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
                                 <div className="flex">
-                                <button className="customButton rounded">
+                                <button className="custombutton rounded">
                                     <span className="button_curve"></span>
                                     <button className="btn rounded align-content-center">About More</button>
                                     
@@ -102,7 +102,7 @@ const Services = () => {
                                     inventore? Iste, dolores. Ducimus eligendi placeat dicta sequi labore doloribus
                                     dolorum ad quibusdam fugit ipsa. Laboriosam, quibusdam.</p>
 
-                                <button className="customButton rounded">
+                                <button className="custombutton rounded">
                                     <span className="button_curve"></span>
                                     <button className="btn rounded align-content-center">Experience More</button>
                                     
@@ -116,17 +116,17 @@ const Services = () => {
                             <form >
                                 <div className="flex-col flex sm:gap-4 min-[200px]:gap-2 ">
                                     <div className="w-full space-y-2">
-                                        <input type="text" name="name" value="" placeholder="Your name"
+                                        <input type="text" name="name" defaultValue="" placeholder="Your name"
                                             className="border-1 p-2 sm:w-[49.5%] min-[200px]:w-full" />
-                                        <input type="text" name="email" value="" placeholder="Your email"
+                                        <input type="text" name="email" defaultValue="" placeholder="Your email"
                                             className="border-1 p-2 sm:w-[49.5%] min-[200px]:w-full" />
                                     </div>
                                     <textarea name="message" id="" placeholder="Your Message"
                                         className="border-1"></textarea>
 
-                                    <button className="customButton rounded">
+                                    <button className="custombutton rounded">
                                         <span className="button_curve"></span>
-                                        <input className="btn rounded align-content-center" type="submit" value="Send Message" />
+                                        <input className="btn rounded align-content-center" type="submit" defaultValue="Send Message" />
                                     </button>
 
                                 </div>

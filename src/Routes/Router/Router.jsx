@@ -6,17 +6,15 @@ import {
 import Main from "../../Layout/Main/Main";
 import Home from "../../Pages/Home/Home";
 import About from "../../Pages/About/About";
-import Portfolio from "../../Pages/Portfolio/Portfolio";
 
-
-
-
+import ErrorPage from "../../components/ErrorPage/ErrorPage";
 
 
   const Router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
 
      
       children:[
@@ -27,10 +25,6 @@ import Portfolio from "../../Pages/Portfolio/Portfolio";
         {
           path: "/about",
           element: <About></About>
-        },
-        {
-          path: "/portfolio",
-          element: <Portfolio></Portfolio>
         }
      
         
