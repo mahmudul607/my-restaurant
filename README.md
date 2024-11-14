@@ -18,7 +18,7 @@ TailwindCSS & DaisyUI: For utility-first styling.
 Swiper: For creating touch sliders and carousels.
 
 ### Project Structure
-
+grapsql
 my-restaurant/
 |--public/
 |--src/
