@@ -18,7 +18,7 @@ TailwindCSS & DaisyUI: For utility-first styling.
 Swiper: For creating touch sliders and carousels.
 
 ### Project Structure
-graphql
+```bash
 my-restaurant/
 |--public/
 |--src/
@@ -35,16 +35,16 @@ my-restaurant/
 ## Installation and setup
 
 #### Clone the Repository
-bash
+```bash
 git clone https://github.com/mahmudul607/my-restaurant.git
 cd my-restaurant
 
 #### Installing depenences
-bash
+```bash
 npm install
 
 #### Start The Deployment Server
-bash
+```bash
 npm run dev
 
 
