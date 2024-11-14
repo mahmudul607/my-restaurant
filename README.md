@@ -29,33 +29,34 @@ my-restaurant/
 |  |--Routes/
 |  |--main.js/
 |--package.json
-|__README.md```
+|__README.md
 
 
 
 ## Installation and setup
 
 #### Clone the Repository
-```bash
+bash
 git clone https://github.com/mahmudul607/my-restaurant.git
-cd my-restaurant```
+cd my-restaurant
 
 
 #### Installing depenences
-```bash
-npm install```
+bash
+npm install
 
 
 #### Start The Deployment Server
-```bash
-npm run dev```
+bash
+npm run dev
 
+```
 
-#This Project Also Without React Framwork:
+# This Project Also Without React Framwork:
 
 https://github.com/mahmudul607/restaurant.git
 
-##Live view (without react):
+## Live view (without react):
 https://mahmudul607.github.io/restaurant
 
 
