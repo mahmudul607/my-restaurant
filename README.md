@@ -17,9 +17,14 @@ BootStrap & React Bootstrap: For responsive design and components.
 TailwindCSS & DaisyUI: For utility-first styling.
 Swiper: For creating touch sliders and carousels.
 
+<<<<<<< HEAD
 ### Project Structure:
 
 graphql
+=======
+### Project Structure
+grapsql
+>>>>>>> 3cc03573538d4f00bcf1e3a68b9f1dc8bb397314
 my-restaurant/
 |--public/
 |--src/
