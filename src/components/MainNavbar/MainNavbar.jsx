@@ -8,7 +8,7 @@ import {  NavLink } from 'react-router-dom';
 const MainNavbar = () => {
   return (
     <>
-      {[ 'xl'].map((expand) => (
+      {[ 'lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-transparent   z-50 ">
           <Container className='lg:px-24 min-[200px]:px-4  '>
             <Navbar.Brand href="#" >
@@ -23,7 +23,7 @@ const MainNavbar = () => {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closebutton>
+              <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className='text-[#febf00]'>
                 <span className="flex items-center gap-2"><span
                             className="flex  justify-center  items-center rounded-full w-8 h-8 bg-[#FEBF00] text-[#c52b1f]"><i
